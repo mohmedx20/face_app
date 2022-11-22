@@ -16,7 +16,7 @@ class Stories extends StatelessWidget {
             width: 100,
             decoration: const BoxDecoration(
               shape: BoxShape.rectangle,
-              borderRadius: BorderRadius.all(Radius.circular(30)),
+              borderRadius: BorderRadius.all(Radius.circular(20)),
               image: DecorationImage(
                   image: AssetImage('images/facebookStory.jpg')),
             ),
