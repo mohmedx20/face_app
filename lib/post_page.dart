@@ -82,7 +82,7 @@ class PostPage extends StatelessWidget {
                     ),
                     label: const Text('Like',
                         style: TextStyle(color: Colors.grey))),
-                Spacer(),
+                const Spacer(),
                 ElevatedButton.icon(
                     style: ElevatedButton.styleFrom(
                         backgroundColor: Colors.white, elevation: 0),
@@ -94,7 +94,7 @@ class PostPage extends StatelessWidget {
                     ),
                     label: const Text('Comment',
                         style: TextStyle(color: Colors.grey))),
-                Spacer(),
+                const Spacer(),
                 ElevatedButton.icon(
                     style: ElevatedButton.styleFrom(
                         backgroundColor: Colors.white, elevation: 0),
